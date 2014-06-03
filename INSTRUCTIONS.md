@@ -1,14 +1,14 @@
 # Instructions for generatng the plots
 
-- First of all, download the requiered data into the directory of your
+1- First of all, download the requiered data into the directory of your
   preference.
 
-- On this directory put the scripts "load-data.R", "plot1.R", "plot2.R",
+2- On this directory put the scripts "load-data.R", "plot1.R", "plot2.R",
   "plot3.R" and "plot4.R".
 
-- Open a R repl 
+3- Open a R repl 
 
-- Perform
+4- Perform
 
 	source("plotx.R")
 
