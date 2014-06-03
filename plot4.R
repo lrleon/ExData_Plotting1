@@ -1,3 +1,14 @@
+
+#
+# make sure the scripts load-data.-R, plot2.R and plot3.R are present in
+# the same directory of this file as well the file containing the data
+# (exdata-data-household_power_consumption.zip or
+# household_power_consumption.txt)
+#
+
+lr.not.draw <<- TRUE # indicates to other plot functions not to plot at
+                     # screeen nor to generate their png's
+
 source("plot2.R")
 source("plot3.R")
 
@@ -29,4 +40,6 @@ plot4()
 png(filename="plot4.png", width=480, height=480)
 plot4()
 dev.off()
-message("plot was saved in plot2.png file")
+message("plot was saved in plot4.png file")
+
+remove("lr.not.draw")

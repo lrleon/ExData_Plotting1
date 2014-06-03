@@ -1,3 +1,11 @@
+
+#
+# make sure the script load-data.-R is present in the same directory of
+# this file as well the file containing the data
+# (exdata-data-household_power_consumption.zip or
+# household_power_consumption.txt)
+#
+
 source("load-data.R")
 
 plot1 <- function() {
@@ -8,9 +16,11 @@ plot1 <- function() {
          main = "Global Active Power", xlab="Global Active Power (kilowatts)")
 }
 
-plot1()
+if (! exists("lr.not.draw")) {
+    plot1()
 
-png(filename="plot1.png", width=480, height=480)
-plot1()
-dev.off()
-message("histogram was saved in plot1.png file")
+    png(filename="plot1.png", width=480, height=480)
+    plot1()
+    dev.off()
+    message("histogram was saved in plot1.png file")
+}

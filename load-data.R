@@ -1,6 +1,6 @@
 
 #
-# Simply load data into a data frame
+# load data into a data frame
 load.data <- function() {
 
     if (exists("lr.data"))
