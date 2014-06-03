@@ -1,4 +1,4 @@
-**Read INSTRUCTIONS.ms file for instructions about how generate the
+**Read INSTRUCTIONS.md file for instructions about how generate the
 required plots** 
 
 ## Introduction
