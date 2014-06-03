@@ -28,7 +28,7 @@ load.data <- function() {
     lr.data <<- data
 
     message("Necessary data is in lr.data data frame")
-    message("lr prefix is used in order to mitigate a name space collision")
+    message("NOTE: prefix lr is used in order to mitigate name space pollution")
 
     lr.data
 }
