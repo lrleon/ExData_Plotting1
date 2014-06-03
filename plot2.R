@@ -14,6 +14,6 @@ plot2 <- function() {
 plot2()
 
 png(filename="plot2.png", width=480, height=480)
-plot1()
+plot2()
 dev.off()
 message("histogram was saved in plot2.png file")
