@@ -18,8 +18,8 @@ into "plotx.png" file.
 You can generate any plot at any order.
 
 The first time that you perform source("plotx.R") the script will unzip,
-load and process the data. The following times, provided you not let
-repl, the data will already be loaded.
+load and process the data. The following times, provided you not leave
+the repl, the data will already be loaded and processed.
 
 You can also perform 
 
