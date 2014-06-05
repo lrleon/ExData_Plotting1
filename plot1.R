@@ -6,7 +6,12 @@
 # household_power_consumption.txt)
 #
 
+if (!file.exists("load-data.R"))
+    stop("load-data.R file not found in working directory. Please make sure of copy it in this directory")
+} 
+
 source("load-data.R")
+
 
 plot1 <- function() {
 

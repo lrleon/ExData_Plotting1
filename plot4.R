@@ -8,8 +8,14 @@
 
 lr.not.draw <<- TRUE # indicates to other plot functions not to plot at
                      # screeen nor to generate their png's
+if (!file.exists("plot2.R"))
+    stop("plot2.R file not found in working directory. Please make sure of copy it in this directory")
 
 source("plot2.R")
+
+if (!file.exists("plot3.R"))
+    stop("plot3.R file not found in working directory. Please make sure of copy it in this directory")
+
 source("plot3.R")
 
 plot4 <- function() {
