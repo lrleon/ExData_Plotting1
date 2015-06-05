@@ -1,4 +1,4 @@
-#
+# 
 # make sure the script load-data.-R is present in the same directory of
 # this file as well the file containing the data
 # (exdata-data-household_power_consumption.zip or

@@ -1,4 +1,4 @@
-# Instructions for generatng the plots
+# Instructions for generatng the plots 
 
 1- First of all, download the requiered data into the directory of your
   preference.
@@ -25,5 +25,6 @@ You can also perform
 
     Rscrip plotx.R
 
-from the shell, but doing thus will cause that the data be loaded for
-each execution. It is faster to open a R repl and load each script.
+from the shell. Where x is the plot number. However, doing thus will
+cause that the data be loaded for each execution. It is faster to open a
+R repl and load each script.
